@@ -1,6 +1,8 @@
 ENV['RAILS_ENV'] ||= 'test'
 require_relative "../config/environment"
 require "rails/test_help"
+
+# :TODDFO: Remove minitest stuff if you want tests to run in RubyMine
 require "minitest/reporters"
 Minitest::Reporters.use!
 
